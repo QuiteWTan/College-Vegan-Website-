@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.Contact{
+    background-color: #88c088;
+    border-radius: 20%;
+    box-sizing: border-box;
+    padding: 2px;
+}
+.ContactUsContainer{
+    display: grid;
+    justify-content: center;
+    max-width:100%;
+    height:47em;
+    overflow: hidden;
+}
+.ContactUsContainer .FirstContent{
+    display: grid;
+}
+.ContactUsContainer .FirstContent .Title{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.ContactUsContainer .FirstContent .Title img{
+    width:96em;
+    height:47em;
+    filter: brightness(70%);
+}
+.ContactUsContainer .FirstContent .Title a{
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+.ContactUsContainer .FirstContent .Title a:hover{
+    color:rgb(225,225,225,0.9)
+} 
+.ContactUsContainer .FirstContent .Title h3{
+    position: absolute;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    top:2%;
+    left:2%;
+}
+.ContactUsContainer .FirstContent .Title h2{
+    position: absolute;
+    font-size: 100px;
+    font-family: Cormorant Garamond;
+    color: white;
+    top: 45%;
+    left:29%;
+    transform: translate(-50%,-50%);
+}
+.Hidden{
+    display: none;
+}
+.ContactUsContainer .FirstContent .Title h2 span{
+    font-size: 80px;
+    font-family: Dancing Script;
+}
+.ContactUsContainer .FirstContent .Title .FormContainer{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width:40em;
+    height:47em;
+    background-color: rgba(255,255,255,1);
+    top: 0%;
+    right:0%;
+    text-align: start;
+    box-sizing: border-box;
+}
+.ContactUsContainer .FormContainer .FormTitle h1{
+    margin-top: 20px;
+    font-size: 80px;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    color:#179517;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.ContactUsContainer .FormContainer .FormTitle h1 span{
+    font-size: 20px;
+    font-family: Castoro;
+    text-align: center;
+    color:black;
+}
+.ContactUsContainer .FormContainer .EmailInput,.ContactUsContainer .FormContainer .GenderInput,.ContactUsContainer .FormContainer .MessageInput,.ContactUsContainer .FormContainer .Subscription{
+    overflow: hidden;
+    padding-top:33px;
+}
+.ContactUsContainer .FormContainer .NameInput label,.ContactUsContainer .FormContainer .EmailInput label,.ContactUsContainer .FormContainer .GenderInput label,.ContactUsContainer .FormContainer .MessageInput label{
+    font-family: Castoro;
+    font-size: 18px;
+}
+
+.ContactUsContainer .FormContainer .GenderInput select{
+    width:10em;
+    border:none;
+    border-bottom: 2px solid rgb(159, 159, 159);
+    padding: 5px;
+    font-weight: 900;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+}
+.ContactUsContainer .FormContainer .NameInput input,.ContactUsContainer .FormContainer .EmailInput input{
+    width:25em;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(158, 158, 158);
+}
+.ContactUsContainer .FormContainer .Subscription input[type="checkbox"]{
+    width: 1.2em;
+    height: 1.2em;
+    border:2px solid black;
+}
+.ContactUsContainer .FormContainer .Subscription input{
+    float: left;
+    margin-right: 10px;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.MessageInput textarea{
+    padding: 5px;
+    width:30em;
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(158, 158, 158);
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+}
+textarea:focus::placeholder{
+    color: transparent;
+}
+.ContactUsContainer .FormContainer button{
+    margin-top: 20px;
+    padding:5px 50px 5px 50px;
+    font-family: Castoro;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #92cc92;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 12em;
+}  
+.NameInput .Notice,.EmailInput .Notice,.GenderInput .Notice,.MessageInput .Notice,.Subscription .Notice{
+    color: #ff0000;
+    font-family: Castoro;
+    font-size: 15px;
+    margin-top: 3px;
+    position:absolute;
+}
+@media screen and (max-width:1370px) {
+    .ContactUsContainer{
+        height:45em;
+    }
+    .ContactUsContainer .FirstContent .Title h2{
+        font-size: 70px;
+        left:25%;
+    }
+    .ContactUsContainer .FirstContent .Title h2 span{
+        font-size: 50px;
+    }
+    .ContactUsContainer .FormContainer .FormTitle h1{
+        font-size: 70px;
+    }
+    .ContactUsContainer .FormContainer .FormTitle h1 span{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .ContactUsContainer .FormContainer .NameInput input,.ContactUsContainer .FormContainer .EmailInput input{
+        font-size: 15px;
+    }
+    .ContactUsContainer .FirstContent .Title h2{
+        font-size: 40px;
+        top:40%;
+        left:12%;
+        transform: none;
+    }
+    .ContactUsContainer .FirstContent .Title h2 span{
+        font-size: 25px;
+    }
+    .ContactUsContainer .FormContainer .FormTitle h1{
+        font-size: 55px;
+        line-height: 35px;
+    }
+    .ContactUsContainer .FormContainer .FormTitle h1 span{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1080px) {
+    .ContactUsContainer .FirstContent .Title h2{
+        left:10%;
+    }
+}
+@media screen and (max-width:980px) {
+    .ContactUsContainer .FormContainer .NameInput label,.ContactUsContainer .FormContainer .EmailInput label,.ContactUsContainer .FormContainer .GenderInput label,.ContactUsContainer .FormContainer .MessageInput label{
+        font-size: 14px;
+    }
+    .ContactUsContainer .FormContainer .GenderInput select{
+        font-size: 14px;
+    }
+    .MessageInput textarea{
+        width:25em;
+    }
+    .ContactUsContainer .FirstContent .Title h2{
+        left:8%
+    }
+    .NameInput .Notice,.EmailInput .Notice,.GenderInput .Notice,.MessageInput .Notice,.Subscription .Notice{
+        font-size: 12px;
+    }
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        width:35em;
+    }
+    .ContactUsContainer .FormContainer button{
+        margin-left: 9em;
+    }
+}
+@media screen and (max-width:850px){
+    .ContactUsContainer .FirstContent .Title h2{
+        left:4%;
+    }
+}
+@media screen and (max-width:795px) {
+    .ContactUsContainer .FirstContent .Title h2{
+        display: none;
+    }
+    .ContactUsContainer .FirstContent .Title .Hidden{
+        left:12%;
+        top:14%;
+        display: block;
+        width:40px;
+    }
+}
+@media screen and (max-width:740px){
+    .ContactUsContainer .FirstContent .Title .Hidden{
+        left:6%;
+    }
+    .ContactUsContainer .FormContainer .GenderInput select{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:675px){
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        width:30em;
+    }
+
+}
+@media screen and (max-width:585px){
+    .ContactUsContainer{
+        height:52em;
+    }
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        width:36em;
+        height:47em;
+        top:15%;
+        left:0%;
+    }
+    .ContactUsContainer .FirstContent .Title .Hidden{
+        display: none;
+    }
+    .ContactUsContainer .FormContainer .NameInput label,.ContactUsContainer .FormContainer .EmailInput label,.ContactUsContainer .FormContainer .GenderInput label,.ContactUsContainer .FormContainer .MessageInput label{
+        font-size: 18px;
+    }
+    .ContactUsContainer .FormContainer .NameInput input,.ContactUsContainer .FormContainer .EmailInput input{
+        font-size: 18px;
+        width:20em;
+    }
+    .NameInput .Notice,.EmailInput .Notice,.GenderInput .Notice,.MessageInput .Notice,.Subscription .Notice{
+        font-size: 15px;
+    }
+    .ContactUsContainer .FormContainer .GenderInput select{
+        font-size: 18px;
+    }
+    .ContactUsContainer .FirstContent .Title h2{
+        display: block;
+        left:50%;
+        top:8%;
+        transform: translate(-50%,-50%);
+        font-size: 52px;
+    }
+    .ContactUsContainer .FirstContent .Title h2 span{
+        display: none;
+    }
+}
+
+@media screen and (min-height:780px){
+    .ContactUsContainer{
+        height:55em;
+    }
+    .ContactUsContainer .FirstContent .Title img{
+        height:47em;
+    }
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        height:47em;
+        max-width:100%;
+    }
+    .ContactUsContainer .FormContainer .NameInput label,.ContactUsContainer .FormContainer .EmailInput label,.ContactUsContainer .FormContainer .GenderInput label,.ContactUsContainer .FormContainer .MessageInput label{
+        font-size: 18px;
+    }
+    .ContactUsContainer .FormContainer .NameInput input,.ContactUsContainer .FormContainer .EmailInput input{
+        font-size: 18px;
+        width:20em;
+    }
+    .NameInput .Notice,.EmailInput .Notice,.GenderInput .Notice,.MessageInput .Notice,.Subscription .Notice{
+        font-size: 15px;
+    }
+    .ContactUsContainer .FormContainer .GenderInput select{
+        font-size: 18px;
+    }
+    .MessageInput textarea{
+        font-size: 18px;
+        width:20em;
+        height:8em;
+    }
+}
+@media screen and (max-width:480px){
+    .ContactUsContainer{
+        height:52em;
+    }
+    .ContactUsContainer .FormContainer .FormTitle h1{
+        margin-top: 10px;
+    }
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        top:11%;
+        width:30em;
+    }
+    .ContactUsContainer .FirstContent .Title h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:425px){
+    .ContactUsContainer{
+        height:52em;
+    }
+    .ContactUsContainer .FirstContent .Title h2{
+        font-size: 30px;
+        top:7.5%;
+    }
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        width:26.5em;
+        height:46em;
+    }
+    .ContactUsContainer .FormContainer button{
+        margin-left: 6em;
+    }  
+    .ContactUsContainer .FormContainer .NameInput label,.ContactUsContainer .FormContainer .EmailInput label,.ContactUsContainer .FormContainer .GenderInput label,.ContactUsContainer .FormContainer .MessageInput label{
+        font-size: 20px;
+    }
+    .ContactUsContainer .FormContainer .NameInput input,.ContactUsContainer .FormContainer .EmailInput input{
+        width:15em;
+        font-size: 20px;
+    }
+    .NameInput .Notice,.EmailInput .Notice,.GenderInput .Notice,.MessageInput .Notice,.Subscription .Notice{
+        font-size: 18px;
+    }
+    .ContactUsContainer .FormContainer .GenderInput select{
+        font-size: 20px;
+    }
+    .MessageInput textarea{
+        font-size: 20px;
+        width:15em;
+    }
+}
+@media screen and (max-width:375px){
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        width:23.5em;
+    }
+}
+@media screen and (max-width:350px){
+    .ContactUsContainer .FirstContent .Title .FormContainer{
+        width:22em;
+        height:47em;
+    }
+    .ContactUsContainer .FormContainer button{
+        margin-left: 5.8em;
+        margin-top: 30px;
+    } 
+}

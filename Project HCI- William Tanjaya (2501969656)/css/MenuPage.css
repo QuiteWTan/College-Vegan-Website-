@@ -1,0 +1,636 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.Menu{
+    background-color: #88c088;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+}
+.MenuPageContainer{
+    display: grid;
+    width:100%;
+    justify-content: center;
+    margin-top:0.4em;
+}
+.MenuPageContainer .FirstContainer{
+    grid-row: 1;
+    grid-column: 1/5;
+    display: grid;
+    width:96em;
+    height:34em;
+    overflow: hidden;
+}
+.MenuPageContainer .FirstContainer .NewsContainer{
+    grid-row:1;
+    grid-column: 1/3;
+    position: relative;
+}
+.MenuPageContainer .FirstContainer .NewsContainer img{
+    width: 100%;
+    height:99%;
+    filter: brightness(70%);
+}
+.MenuPageContainer .FirstContainer .NewsContainer .Title{
+    font-size: 35px;
+    font-family: Poppins;
+}
+.MenuPageContainer .FirstContainer .NewsContainer h2{
+    color:white;
+    font-size: 65px;
+    position: absolute;
+    top: 47%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width:70%;
+    overflow: hidden;
+    font-family: Cormorant Garamond;
+}
+.MenuPageContainer .FirstContainer .NewsContainer h2 span{
+    font-size: 40px;
+    font-family: Pompiere;
+}
+.MenuPageContainer .FirstContainer .NewsContainer .Time{
+    font-size: 30px;
+}
+.MenuPageContainer .FirstContainer .NewsContainer h2 a{
+    color:white;
+    font-family: Pompiere;
+    font-size: 40px;
+    background-color: transparent;
+    transition: all 1s;
+}
+.MenuPageContainer .FirstContainer .NewsContainer h2 a:hover{
+    color:rgba(255, 255, 255,0.7);
+}
+.MenuPageContainer .SecondContent{
+    grid-row: 2;
+    grid-column: 1/5;
+    width:96em;
+    display: grid;
+    margin: 70px 0 20px 0;
+    place-items: center;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+    background-color: rgba(222, 222, 222, 0.8);
+    box-shadow: 10px 10px 61px -13px rgba(0,0,0,0.75);
+}
+.MenuPageContainer .SecondContent h1{
+    text-align: center;
+    grid-row:1;
+    grid-column: 1/5;
+    width:15em;
+    font-family: Cormorant Garamond;
+    line-height: 35px;
+    overflow: hidden;
+    font-size: 50px;
+    margin-top: 10px;
+    height:3em;
+}
+.MenuPageContainer .SecondContent .Diff{
+    font-family: Dancing Script;
+}
+.MenuPageContainer .SecondContent h1 span{
+    font-family: Dancing Script;
+    font-size: 30px;
+}
+.MenuPageContainer .SecondContent .DessertContainer{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/5;
+    grid-template-columns: repeat(3,24em);
+    grid-column-gap: 5em;
+}
+.MenuPageContainer .SecondContent .DessertContainer h1{
+    height:0.8em;
+    width:15em;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid black;
+    font-family: Cormorant Garamond;
+}
+.MenuPageContainer .SecondContent .DessertContainer h2{
+    text-align: left;
+    font-family:Cormorant Garamond;
+    font-size: 20px;
+}
+.MenuPageContainer .SecondContent .DessertContainer img{
+    width:25em;
+    height:20em;
+}
+.MenuPageContainer .ThirdContent{
+    grid-row: 3;
+    grid-column: 1/5;
+    display: grid;
+    margin: 10px 0 20px 0;
+    place-items: center;
+}
+.MenuPageContainer .ThirdContent h1{
+    grid-row: 1;
+    grid-column: 1/5;
+    font-family:Dancing Script;
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    width:7em;
+    border-bottom: 4px solid black;
+    font-weight: lighter;
+}
+.MenuPageContainer .ThirdContent h2{
+    grid-row: 2;
+    grid-column: 1/5;
+    font-size: 40px;
+    font-family:Pompiere;
+    color: #179517;
+    text-align: center;
+    margin-top: 5px;
+}
+.MenuPageContainer .FourthContent{
+    width:96em;
+    grid-row: 4;
+    grid-column: 1/5;
+    display: grid;
+    box-sizing: border-box;
+}
+.MenuPageContainer .FifthContent{
+    width:96em;
+    grid-row: 5;
+    grid-column: 1/5;
+    display: grid;
+    box-sizing: border-box;
+}
+.MenuPageContainer .FourthContent .ImageBG{
+    grid-row:1/3;
+    grid-column: 3;
+    height:70em;
+    width:28em;
+    overflow: hidden;
+    position: relative;
+}
+.MenuPageContainer .FifthContent .ImageBG{
+    grid-row:1/3;
+    grid-column: 2/3;
+    width:30em;
+    height:22em;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+}
+.MenuPageContainer .FourthContent .ImageBG h5,.MenuPageContainer .FifthContent .ImageBG h5{
+    position: absolute;
+    color:white;
+    font-size: 100px;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.MenuPageContainer .FourthContent .ImageBG .NameMenu,.MenuPageContainer .FifthContent .ImageBG .NameMenu{
+    top:50%;
+    left:50%;
+    background-color: rgba(203, 203, 203, 0.7);
+    padding: 45px 30px;
+}
+.MenuPageContainer .FourthContent .Cuisine1,.MenuPageContainer .FourthContent .Cuisine2,.MenuPageContainer .FourthContent .Cuisine3,.MenuPageContainer .FourthContent .Cuisine4,.MenuPageContainer .FourthContent .Cuisine5,.MenuPageContainer .FourthContent .Cuisine6{
+    color:rgb(129, 164, 114);
+    font-size: 50px;
+    font-family: Dancing Script;
+    border-bottom: 5px solid rgb(129, 164, 114);
+    overflow: hidden;
+    font-weight: 100;
+}
+.MenuPageContainer .FifthContent .ImageBG img{
+    height:22em;
+    width:100%;
+    position: relative;
+}
+.MenuPageContainer .FourthContent .ImageBG img{
+    height:70em;
+    width:100%;
+    position: relative;
+}
+.MenuPageContainer .FourthContent .MenuContainer{
+    grid-row:1;
+    grid-column: 1;
+}
+.MenuPageContainer .FifthContent .MenuContainer{
+    grid-row:1;
+    grid-column: 3;
+}
+.Cuisine1Container,.Cuisine2Container, .Cuisine3Container,.Cuisine4Container,.Cuisine5Container,.Cuisine6Container{
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    display: grid;
+    grid-row-gap: 10px;
+    height:35em;
+    padding-top: 20px;
+}
+.MenuPageContainer .FifthContent .MenuContainer{
+    width:60em;
+    height:22em;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(3,18.5em);
+    grid-column-gap: 2em;
+    grid-row-gap: 0.5em;
+    box-sizing: border-box;
+    grid-row-gap: 10x;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.MenuPageContainer .FourthContent .MenuContainer{
+    width:67em;
+    height: 72em;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(3,19.5em);
+    grid-column-gap: 2em;
+    box-sizing: border-box;
+    grid-row-gap: 10x;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.Food,.Drink{
+    width: 18.6em;
+    height:8.5em;
+    padding-left:15px;
+    box-sizing: border-box;
+    border-radius: 5%;
+    box-shadow: 10px 10px 61px -13px rgba(0,0,0,0.75);
+}
+.MenuPageContainer .FifthContent .MenuContainer img,.MenuPageContainer .FourthContent .MenuContainer img{
+    width:7em;
+    height:7em;
+    float: left;
+    padding-top: 10px;
+    border-radius: 100%;
+    padding-right: 5px;
+}
+.MenuPageContainer .FifthContent .MenuContainer h2,.MenuPageContainer .FourthContent .MenuContainer h2{
+    font-size: 18px;
+    width:8.2em;
+    border-bottom: 2px solid black;
+    font-family: Castoro;
+    margin-top: 12px;
+}
+.MenuPageContainer .FifthContent .MenuContainer h4,.MenuPageContainer .FourthContent .MenuContainer h4{
+    font-size: 17px;
+    padding-top: 2px;
+    font-family: Pompiere;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1520px){
+    .MenuPageContainer .FourthContent{
+        width:96em;
+    }
+    .MenuPageContainer .FifthContent{
+        width:96em;
+    }
+    .MenuPageContainer .FourthContent .ImageBG{
+        grid-row:1;
+        grid-column: 1/4;
+        height:10em;
+        width:96em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG{
+        grid-row:1;
+        grid-column: 1/4;
+        height:10em;
+        width:96em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG img,.MenuPageContainer .FourthContent .ImageBG img{
+        height:26em;
+        filter: blur(4px);
+    }
+    .MenuPageContainer .FourthContent .ImageBG .NameMenu,.MenuPageContainer .FifthContent .ImageBG .NameMenu{
+        background-color: transparent;
+    }
+    .MenuPageContainer .FourthContent .MenuContainer{
+        grid-row:2;
+        grid-column: 1/4;
+        height:72em;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer{
+        padding-top: 10px;
+        grid-row:2;
+        grid-column: 1/4;
+        height:22em;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer,.MenuPageContainer .FourthContent .MenuContainer{
+        width:96em;
+    }
+}
+@media screen and (max-width: 1350px){
+    .MenuPageContainer .FirstContainer{
+        width:85em;
+    }
+    .MenuPageContainer .SecondContent{
+        width:85em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer{
+        grid-template-columns: repeat(3,22em);
+        grid-column-gap: 2em;
+    }
+    .MenuPageContainer .FourthContent{
+        width:85em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG img,.MenuPageContainer .FourthContent .ImageBG{
+        width:85em;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer,.MenuPageContainer .FourthContent .MenuContainer{
+        width: 85em;
+    }
+    .MenuPageContainer .FifthContent{
+        width:85em;
+    }
+}
+@media screen and (max-width: 1150px){
+    .MenuPageContainer .FirstContainer{
+        width:80em;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer .Title{
+        font-size: 30px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2{
+        font-size: 55px;
+        width:70%;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2 span{
+        font-size: 30px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer .Time{
+        font-size: 25px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2 a{
+        font-size: 35px;
+    }
+    .MenuPageContainer .SecondContent{
+        width:80em;
+    }
+    .MenuPageContainer .SecondContent h1{
+        width:15em;
+        line-height: 35px;
+        font-size: 50px;
+        margin-top: 10px;
+        height:3em;
+        padding-bottom: 10px;
+    }
+    .MenuPageContainer .SecondContent h1 span{
+        font-size: 30px;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer{
+        grid-template-columns: repeat(3,16em);
+        grid-column-gap: 1em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer h1{
+        font-size: 25px;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer h2{
+        font-size: 18px;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer img{
+        width:25em;
+        height:18em;
+    }
+    .MenuPageContainer .FourthContent{
+        width:80em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG,.MenuPageContainer .FourthContent .ImageBG{
+        width:80em;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer,.MenuPageContainer .FourthContent .MenuContainer{
+        width: 80em;
+        grid-column-gap: 0.5em;
+        padding: 10px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer{
+        height:20em;
+    }
+    .MenuPageContainer .FifthContent{
+        width:80em;
+    }
+}
+@media screen and (max-width: 990px){
+    .MenuPageContainer .FirstContainer{
+        width:70em;
+    }
+    .MenuPageContainer .SecondContent{
+        width:70em;
+    }
+    .MenuPageContainer .SecondContent h1 span{
+        font-size: 30px;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer{
+        grid-template-columns: repeat(3,16em);
+        grid-column-gap: 1em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer img{
+        width:16em;
+        height:16em;
+    }
+    .MenuPageContainer .FourthContent{
+        width:70em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG img,.MenuPageContainer .FourthContent .ImageBG{
+        width:70em;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer,.MenuPageContainer .FourthContent .MenuContainer{
+        width: 70em;
+        grid-column-gap: 0.5em;
+    }
+    .MenuPageContainer .FifthContent{
+        width:70em;
+    }
+    .MenuPageContainer .FourthContent .MenuContainer{
+        width:70em;
+        height:108em;
+        grid-template-columns:repeat(2,19.5em);
+    }
+    .MenuPageContainer .FifthContent .MenuContainer{
+        width:70em;
+        height:28em;
+        grid-template-columns:repeat(2,19.5em);
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .MenuPageContainer .FirstContainer{
+        width:60em;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer .Title{
+        font-size: 30px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2{
+        font-size: 45px;
+        width:70%;
+    }
+    .MenuPageContainer .SecondContent{
+        width:60em;
+    }
+    .MenuPageContainer .SecondContent h1 span{
+        font-size: 30px;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer{
+        grid-template-columns: 25em;
+        grid-template-rows: repeat(3,23em);
+        grid-column-gap: 0em;
+        grid-row-gap: 1em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer h1{
+        text-align: center;
+        height:0.8em;
+        font-size: 30px;
+        width:13.5em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer h2{
+        text-align: center;
+        font-size: 18px;
+        width:none
+    }
+    .MenuPageContainer .SecondContent .DessertContainer img{
+        width:25em;
+        height:15em;
+    }
+    .MenuPageContainer .FourthContent{
+        width:60em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG,.MenuPageContainer .FourthContent .ImageBG{
+        width:60em;
+    }
+    .MenuPageContainer .FourthContent .ImageBG h5,.MenuPageContainer .FifthContent .ImageBG h5{
+        font-size: 60px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer{
+        width: 60em;
+        grid-column-gap: 1em;
+        grid-template-columns:repeat(2,16.5em);
+    }
+    .MenuPageContainer .FourthContent .MenuContainer{
+        width: 60em;
+        grid-column-gap: 1em;
+        grid-template-columns:repeat(2,17.5em);
+        height:108em;
+    }
+    .Food,.Drink{
+        width:16.5em;
+        height:8.5em;
+        padding: 5px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer img,.MenuPageContainer .FourthContent .MenuContainer img{
+        width:6em;
+        height:6em;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer h2,.MenuPageContainer .FourthContent .MenuContainer h2{
+        margin-top: 5px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer h4,.MenuPageContainer .FourthContent .MenuContainer h4{
+        font-size: 16px;
+    }
+    .MenuPageContainer .FifthContent{
+        width:60em;
+    }
+}
+@media screen and (max-width: 600px){
+    .MenuPageContainer .FirstContainer{
+        width:45em;
+        height:45em;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer .Title{
+        font-size: 35px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2{
+        top: 50%;
+        left:50%;
+        font-size: 35px;
+        width:40%;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2 span{
+        font-size: 30px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer .Time{
+        font-size: 25px;
+    }
+    .MenuPageContainer .FirstContainer .NewsContainer h2 a{
+        font-size: 35px;
+    }
+    .MenuPageContainer .SecondContent{
+        width:45em;
+    }
+    .MenuPageContainer .SecondContent h1{
+        width:16em;
+        line-height: 28px;
+        font-size: 35px;
+    }
+    .MenuPageContainer .SecondContent h1 span{
+        font-size: 21px;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer{
+        grid-template-columns: 18em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer h1{
+        width:9.5em;
+    }
+    .MenuPageContainer .SecondContent .DessertContainer img{
+        width:18em;
+        height:15em;
+    }
+    .MenuPageContainer .ThirdContent h1{
+        font-size: 45px;
+        width:7em;
+    }
+    .MenuPageContainer .ThirdContent h2{
+        font-size: 30px;
+    }
+    .MenuPageContainer .FourthContent{
+        width:45em;
+    }
+    .MenuPageContainer .FifthContent .ImageBG,.MenuPageContainer .FourthContent .ImageBG{
+        width:45em;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer,.MenuPageContainer .FourthContent .MenuContainer{
+        width: 45em;
+    }
+    .Food,.Drink{
+        width:18em;
+        height:8.9em;
+        padding: 5px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer img,.MenuPageContainer .FourthContent .MenuContainer img{
+        width: 7em;
+        height:7em;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .MenuPageContainer .FifthContent{
+        width:45em;
+    }
+    .MenuPageContainer .FourthContent .MenuContainer{
+        height:210em;
+        grid-template-columns:repeat(1,19.5em);
+        grid-template-rows: repeat(6,34em);
+    }
+    .MenuPageContainer .FifthContent .MenuContainer{
+        height:61em;
+        grid-template-columns:repeat(1,18em);
+        grid-template-rows: repeat(6,9em);
+    }
+    .MenuPageContainer .FifthContent .MenuContainer h2,.MenuPageContainer .FourthContent .MenuContainer h2{
+        margin-top: 10px;
+    }
+    .MenuPageContainer .FifthContent .MenuContainer h4,.MenuPageContainer .FourthContent .MenuContainer h4{
+        font-size: 16px;
+    }
+}

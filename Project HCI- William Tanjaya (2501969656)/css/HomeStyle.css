@@ -1,0 +1,837 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    transition: 1s ease;
+}
+a{
+    text-decoration: none;
+}
+.Home{
+    background-color: #88c088;
+    border-radius: 20%;
+}
+.HomePageContainer{
+    display: grid;
+    width:100%;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+.HomePageContainer .BG{
+    grid-row:1;
+    grid-column:1/5;
+    opacity: 0.1;
+}
+.HomePageContainer .FirstContent{
+    position: relative;
+    grid-row:1;
+    grid-column:3;
+    height:34em;
+    width: 96em;
+    justify-content: center;
+    overflow: hidden;
+}
+.HomePageContainer .FirstContent img{
+    height:34em;
+    width:60em;
+}
+.HomePageContainer .FirstContent .ContentContainer{
+    position: absolute;
+    top:45%;
+    left:78%;
+    transform: translate(-50%,-50%);
+}
+.HomePageContainer .FirstContent h1{
+    color:black;
+    font-family:Pompiere;
+    font-size:75px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.HomePageContainer .FirstContent h1 span{
+    font-family: Castoro;
+    font-size: 80px;
+    color:#449d44;
+}
+.HomePageContainer .FirstContent h2{
+    padding-top:40px;
+    color:black;
+    font-family:Pompiere;
+    font-size:40px;
+    width:15em;
+}
+.HomePageContainer .SecondContent{
+    margin-top: 30px;
+    position: relative;
+    grid-row:2;
+    grid-column:1/5;
+    height:47.5em;
+    width: 96em;
+}
+.HomePageContainer .SecondContent img{
+    height:47em;
+    width: 100%;
+    filter: brightness(80%);
+}
+.HomePageContainer .SecondContent .ImageLogo{
+    position: absolute;
+    font-family:pompiere;
+    top:18%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:13em;
+    height:13em;
+    text-align: center;
+    background-color: white;
+    border-radius: 150px;
+}
+.HomePageContainer .SecondContent .ImageLogo .InnerContainer{
+    position: absolute;
+    border: 2px solid #0E900E;
+    width:12em;
+    height:12em;
+    margin:6px;
+    border-radius: 150px;
+}
+.HomePageContainer .SecondContent .ImageLogo h1{
+    padding-top: 50px;
+    font-size: 40px;
+    color:#0E900E;
+}
+.HomePageContainer .SecondContent .ImageLogo img{
+    padding-top: 40px;
+    width:5em;
+    height:5em;
+}
+.HomePageContainer .SecondContent h1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    font-family:pompiere;
+    font-size:80px;
+    width:5.6em;
+}
+.HomePageContainer .SecondContent h1 span{
+    font-size: 40px;
+    color:#47cf47;
+}
+.HomePageContainer .SecondContent h1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    padding: 5px 60px 5px 60px;
+    background-color: rgba(120, 202, 120,0.7);
+    border-radius:20px;
+    transition: 1s ease;
+}
+.HomePageContainer .SecondContent h1 a:hover{
+    background-color: #0E900E;
+}
+.HomePageContainer .ThirdContent{
+    position: relative;
+    grid-row:3;
+    grid-column:1/5;
+    width: 96em;
+    display:grid;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 10px 10px 61px -13px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.HomePageContainer .ThirdContent .ContainerContent h2{
+    grid-row:1;
+    grid-column: 1/4;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 65px;
+    font-family: Dancing Script;
+    font-weight: 400;
+    line-height: 70px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.HomePageContainer .ThirdContent .ContainerContent h2 span{
+    font-family: Mr Dafoe;
+}
+.HomePageContainer .ThirdContent .ContainerContent{
+    grid-row:2;
+    grid-column:1/4;
+    display: grid;
+    margin-left: 70px;
+}
+.HomePageContainer .ThirdContent .ContainerContent h1{
+    grid-row:2;
+    grid-column:1/4;
+    text-align: center;
+    font-size: 50px;
+    font-family: Dancing Script;
+    color: #69BD69;
+    margin-top: -50px;
+    width:14em;
+}
+.HomePageContainer .ThirdContent .ContainerContent .Promo{
+    font-size:65px;
+    color:green;
+    font-family: Dancing script;
+    padding: 3px 20px 3px 20px;
+    box-sizing: border-box;
+}
+.HomePageContainer .ThirdContent .ContainerContent h1 span{
+    font-family: Pompiere;
+    font-size:30px;
+    color:black;
+}
+.HomePageContainer .ThirdContent .ContainerContent img{
+    grid-row:1/3;
+    grid-column:4/5;
+    width:46em;
+    height:42em;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.HomePageContainer .FourthContent{
+    grid-row:4;
+    grid-column: 1/5;
+    margin-top: 50px;
+    width:96em;
+    display: grid;
+    justify-content: center;
+}
+.HomePageContainer .FourthContent h1{
+    grid-row:1;
+    grid-column:1/5;
+    font-family: Dancing Script;
+    text-align: center;
+    font-size: 90px;
+    color:green;
+    border-bottom: 2px solid green;
+    font-weight: 400;
+}
+.HomePageContainer .FourthContent .PopularMenuContainer{
+    grid-row:2;
+    grid-column:1/5;
+    display: grid;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.FirstFood img,.SecondFood img,.FourthFood img,.FifthFood img{
+    width:27em;
+    height:20em;
+}
+.ThirdFood img{
+    width:27em;
+    height:40em;
+}
+.FirstFood{grid-row:2;grid-column:1;width:27em;height:20em;position: relative;overflow: hidden;}
+.SecondFood{grid-row:3;grid-column:1;width:27em;height:20em;position: relative;overflow: hidden;}
+.ThirdFood{grid-row:2/4;grid-column:2;width:27em;height:40em;position: relative;overflow: hidden;}
+.FourthFood{grid-row:2;grid-column:3;width:27em;height:20em;position: relative;overflow: hidden;}
+.FifthFood{grid-row:3;grid-column:3;width:27em;height:20em;position: relative;overflow: hidden;}
+.HomePageContainer .FourthContent .PopularMenuContainer h4{
+    width:27em;
+    height:13em;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: Pompiere;
+    color: #008000;
+    top:250%;
+    left:50%;
+    background-color: rgba(255,255,255,0.6);
+    transform: translate(-50%,-50%);
+    display: grid;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+}
+.HomePageContainer .FourthContent .ThirdFood h4{
+    height:27em;
+}
+.HomePageContainer .FourthContent .FirstFood:hover h4,.HomePageContainer .FourthContent .SecondFood:hover h4,.HomePageContainer,.HomePageContainer .FourthContent .FourthFood:hover h4,.HomePageContainer .FourthContent .FifthFood:hover h4{
+    top:50%;
+}
+.FourthContent .ThirdFood:hover h4{
+    top:50%;
+}
+@media screen and (max-width:1420px){
+    .HomePageContainer .FirstContent{
+        height:34em;
+        width: 85em;
+    }
+    .HomePageContainer .FirstContent img{
+        height:34em;
+        width:50em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        left:74%;
+    }
+    .HomePageContainer .FirstContent h1{
+        font-size:75px;
+    }
+    .HomePageContainer .FirstContent h1 span{
+        font-size: 70px;
+    }
+    .HomePageContainer .FirstContent h2{
+        font-size:30px;
+    }
+    .HomePageContainer .SecondContent{
+        margin-top: 30px;
+        height:35em;
+        width: 85em;
+        overflow: hidden;
+    }
+    .HomePageContainer .SecondContent img{
+        height:35em;
+    }
+    .HomePageContainer .SecondContent h1{
+        font-size: 60px;
+    } 
+    .HomePageContainer .SecondContent .ImageLogo{
+        width:10em;
+        height:10em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo .InnerContainer{
+        width:9em;
+        height:9em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo h1{
+        font-size: 30px;
+    }
+    .HomePageContainer .SecondContent .ImageLogo img{
+        padding-top: 20px;
+        width:5em;
+        height:5em;
+    }
+    .HomePageContainer .ThirdContent{
+        width: 85em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent{
+        margin-left: 40px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        font-size: 40px;
+        margin-top: -30px;
+        margin-left: 80px;
+        width:13em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent .Promo{
+        font-size:55px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:42em;
+        height:42em;
+        margin-left: 30px;
+    }
+    .HomePageContainer .FourthContent{
+        width:85em;
+    }
+    .FirstFood,.SecondFood,.FourthFood,.FifthFood{
+        width:18em;
+        height:15em;
+    }
+    .ThirdFood{
+        width:20em;
+        height:30em;
+    }
+    .FirstFood img,.SecondFood img,.FourthFood img,.FifthFood img{
+        width:18em;
+        height:15em;
+    }
+    .ThirdFood img{
+        width:24em;
+        height:30em;
+    }
+    .HomePageContainer .FourthContent h1{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:1150px){
+    .HomePageContainer .FirstContent{
+        height:30em;
+        width: 78em;
+    }
+    .HomePageContainer .FirstContent img{
+        height:30em;
+        width:40em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        top:50%;
+        left:70%;
+    }
+    .HomePageContainer .FirstContent h1{
+        font-size:75px;
+    }
+    .HomePageContainer .FirstContent h1 span{
+        font-size: 65px;
+    }
+    .HomePageContainer .SecondContent{
+        width: 78em;
+    }
+    .HomePageContainer .ThirdContent{
+        width: 65em;
+    }
+    .HomePageContainer .FourthContent{
+        width: 78em;
+    }
+}
+@media screen and (max-width:1030px){
+    .HomePageContainer .FirstContent{
+        height:30em;
+        width:68em;
+    }
+    .HomePageContainer .FirstContent img{
+        height:30em;
+        width:35em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        top:50%;
+        left:67%;
+    }
+    .HomePageContainer .FirstContent h1{
+        font-size:55px;
+        line-height: 65px;
+    }
+    .HomePageContainer .FirstContent h1 span{
+        font-size: 55px;
+    }
+    .HomePageContainer .FirstContent h2{
+        font-size:25px;
+    }
+    .HomePageContainer .SecondContent{
+        height:32em;
+        width:68em;
+    }
+    .HomePageContainer .SecondContent img{
+        height:32em;
+    }
+    .HomePageContainer .SecondContent h1{
+        top:65%;
+        font-size: 50px;
+        overflow: hidden;
+    } 
+    .HomePageContainer .SecondContent h1 span{
+        font-size: 30px;
+    } 
+    .HomePageContainer .SecondContent h1 a{
+        font-size: 30px;
+        padding: 5px 40px;
+    }
+    .HomePageContainer .SecondContent .ImageLogo h1{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .HomePageContainer .ThirdContent{
+        width: 58em;
+        box-sizing: border-box;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h2{
+        font-size: 50px;
+        margin-left: 0px;
+        line-height: 50px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        font-size: 35px;
+        margin-top: -30px;
+        margin-left: 0px;
+        width:13em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1 span{
+        font-size:25px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:28em;
+        height:36em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent .Promo{
+        font-size:35px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:40em;
+        height:40em;
+    }
+    .HomePageContainer .FourthContent{
+        width:68em;
+    }
+}
+@media screen and (max-width:890px){
+    .HomePageContainer .FirstContent{
+        width:54em;
+    }
+    .HomePageContainer .FirstContent img{
+        width:54em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        top:50%;
+        left:50%;
+        padding:5px 80px;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+    }
+    .HomePageContainer .SecondContent{
+        height:32em;
+        width:54em;
+    }
+    .HomePageContainer .SecondContent img{
+        height:32em;
+    }
+    .HomePageContainer .ThirdContent{
+        width:52em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h2{
+        padding-top: 50px;
+        font-size: 50px;
+        margin-left: 10px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent{
+        margin-left: 40px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        font-size: 30px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1 span{
+        font-size: 20px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:30em;
+        margin-right: 20px;
+    }
+    .HomePageContainer .FourthContent{
+        width:54em;
+    }
+    .FirstFood,.SecondFood,.FourthFood,.FifthFood{
+        width:15em;
+        height:15em;
+    }
+    .ThirdFood{
+        width:15em;
+        height:30em;
+    }
+    .FirstFood img,.SecondFood img,.FourthFood img,.FifthFood img{
+        width:15em;
+        height:15em;
+    }
+    .ThirdFood img{
+        width:15em;
+        height:30em;
+    }
+    .HomePageContainer .FourthContent h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:750px){
+    .HomePageContainer .ThirdContent{
+        width: 54em;
+        position: relative;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h2{
+        position: absolute;
+        top:10%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width:24em;
+        z-index: 1;
+        margin-left: 0;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        font-size: 30px;
+        margin-top: -30px;
+        background-color: rgba(255,255,255,0.6);
+        padding: 10px 50px;
+        position: absolute;
+        top:62%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        margin-left: 0;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1 span{
+        font-size:20px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:100%;
+        border-radius: 0;
+        margin-left: 0;
+        filter: brightness(90%);
+    }
+    .HomePageContainer .ThirdContent .ContainerContent .Promo{
+        font-size:35px;
+        border-bottom: 2px solid #0E900E;
+    }
+}
+@media screen and (max-width:600px){
+    .HomePageContainer .FirstContent{
+        height:45em;
+        width:45em;
+    }
+    .HomePageContainer .FirstContent img{
+        height:45em;
+        width:45em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        padding:10px 40px;
+    }
+    .HomePageContainer .FirstContent h1{
+        font-size:45px;
+        line-height: 50px;
+    }
+    .HomePageContainer .FirstContent h1 span{
+        font-size: 45px;
+    }
+    .HomePageContainer .FirstContent h2{
+        font-size:20px;
+    }
+    .HomePageContainer .SecondContent{
+        height:30em;
+        width:45em;
+    }
+    .HomePageContainer .SecondContent img{
+        height:30em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo{
+        width:8em;
+        height:8em;
+        top:25%;
+    }
+    .HomePageContainer .SecondContent .ImageLogo img{
+        padding-top: 15px;
+        width:4em;
+        height:4em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo .InnerContainer{
+        width:7em;
+        height:7em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo h1{
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .HomePageContainer .SecondContent h1{
+        top:60%;
+        font-size: 40px;
+        overflow: hidden;
+    } 
+    .HomePageContainer .SecondContent h1 span{
+        font-size: 25px;
+    } 
+    .HomePageContainer .SecondContent h1 a{
+        font-size: 25px;
+        padding: 5px 40px;
+    }
+    .HomePageContainer .ThirdContent{
+        width: 45em;
+        height:30em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h2{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1 span{
+        font-size:20px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        height:30em;
+    }
+    .HomePageContainer .FourthContent{
+        width:45em;
+    }
+    .FirstFood,.SecondFood,.FourthFood,.FifthFood{
+        width:10em;
+        height:12em;
+    }
+    .ThirdFood{
+        width:10em;
+        height:24em;
+    }
+    .FirstFood img,.SecondFood img,.FourthFood img,.FifthFood img{
+        width:10em;
+        height:12em;
+    }
+    .ThirdFood img{
+        width:10em;
+        height:24em;
+    }
+    .HomePageContainer .FourthContent h1{
+        font-size: 45px;
+    }
+    .HomePageContainer .FourthContent .PopularMenuContainer h4{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:480px){
+    .FirstFood,.SecondFood,.FourthFood,.FifthFood{
+        width:20em;
+        height:18em;
+    }
+    .ThirdFood{
+        width:20em;
+        height:36em;
+    }
+    .FirstFood img,.SecondFood img,.FourthFood img,.FifthFood img{
+        width:20em;
+        height:18em;
+    }
+    .ThirdFood img{
+        width:20em;
+        height:36em;
+    }
+    .HomePageContainer .FourthContent h1{
+        font-size: 30px;
+    }
+    .HomePageContainer .FourthContent .PopularMenuContainer h4{
+        font-size: 20px;
+    }
+    .HomePageContainer .FourthContent .PopularMenuContainer h4{
+        width:30em;
+        height:40em;
+    }
+    .FirstFood{grid-row:2;grid-column:1/5}
+    .SecondFood{grid-row:3;grid-column:1/5}
+    .ThirdFood{grid-row:4;grid-column:1/5}
+    .FourthFood{grid-row:5;grid-column:1/5}
+    .FifthFood{grid-row:6;grid-column:1/5}
+}
+@media screen and (max-width:450px){
+    .HomePageContainer .FirstContent{
+        width:40em;
+    }
+    .HomePageContainer .FirstContent img{
+        width:40em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        padding:60px 40px;
+    }
+    .HomePageContainer .SecondContent{
+        width:40em;
+        height:25em;
+    }
+    .HomePageContainer .SecondContent h1{
+        top:65%;
+    } 
+    .HomePageContainer .ThirdContent{
+        width: 40em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h2{
+        top:15%;
+        font-size: 35px;
+        line-height: 34px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        top:65%;
+        font-size: 23px;
+        padding: 10px 10px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1 span{
+        font-size:16px;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:35em;
+    }
+    .HomePageContainer .FourthContent{
+        width:40em;
+    }
+    .HomePageContainer .FourthContent .PopularMenuContainer h4{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:390px){
+    .HomePageContainer .FirstContent{
+        width:35em;
+    }
+    .HomePageContainer .FirstContent img{
+        width:35em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        padding:60px 20px;
+    }
+    .HomePageContainer .SecondContent{
+        width:35em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo{
+        width:6em;
+        height:6em;
+        top:22%;
+    }
+    .HomePageContainer .SecondContent .ImageLogo img{
+        padding-top: 15px;
+        width:3em;
+        height:3em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo .InnerContainer{
+        width:5em;
+        height:5em;
+    }
+    .HomePageContainer .SecondContent .ImageLogo h1{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .HomePageContainer .SecondContent h1{
+        top:70%;
+        font-size: 35px;
+        overflow: hidden;
+    } 
+    .HomePageContainer .SecondContent h1 span{
+        font-size: 20px;
+    } 
+    .HomePageContainer .SecondContent h1 a{
+        line-height: 150px;
+        font-size:25px;
+        padding: 5px 50px;
+    }
+    .HomePageContainer .ThirdContent{
+        width: 35em;
+    }
+    .HomePageContainer .FourthContent{
+        width:35em;
+    }
+}
+@media screen and (max-width:350px){
+    .HomePageContainer .FirstContent{
+        width:25em;
+    }
+    .HomePageContainer .FirstContent img{
+        width:25em;
+    }
+    .HomePageContainer .FirstContent .ContentContainer{
+        padding:60px 10px;
+    }
+    .HomePageContainer .FirstContent h2{
+        font-size:20px;
+    }
+    .HomePageContainer .FirstContent h2{
+        font-size:25px;
+        width:12em;
+    }
+    .HomePageContainer .SecondContent{
+        width:25em;
+        height:24em;
+    }
+    .HomePageContainer .SecondContent img{
+        height:24em;
+    }
+    .HomePageContainer .SecondContent h1{
+        top:72%;
+    }
+    .HomePageContainer .ThirdContent{
+        width:25em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent{
+        margin-left: 0;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent img{
+        width:25em;
+    }
+    .HomePageContainer .ThirdContent .ContainerContent h1{
+        width:12em;
+    }
+    .HomePageContainer .FourthContent{
+        width:25em;
+    }
+}

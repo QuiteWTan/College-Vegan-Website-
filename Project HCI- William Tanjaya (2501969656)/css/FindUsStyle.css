@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.FindUs{
+    background-color: #88c088;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+}
+.FindUsContainer{
+    margin-top: 0.5em;
+    display: grid;
+    justify-content: center;
+}
+.FindUsContainer .FirstContent{
+    grid-row: 1;
+    grid-column: 1/6;
+    width: 95em;
+    height:33em;
+    overflow: hidden;
+    position: relative;
+}
+.FindUsContainer .FirstContent img{
+    height:100%;
+    width:100%;
+    filter: brightness(80%);
+}
+.FindUsContainer .FirstContent h1{
+    position: absolute;
+    color:white;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid white;
+    padding: 1.2em 5em;
+    font-weight: lighter;
+}
+.FindUsContainer .FirstContent h1 span{
+    font-size: 40px;
+    font-family: Dancing Script;
+    font-weight: lighter;
+}
+.FindUsContainer .FirstContent .Diff{
+    font-size: 70px;
+    font-family: Dancing Script;
+}
+.FindUsContainer .SecondContent{
+    grid-row: 2;
+    grid-column: 1/6;
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: repeat(2,30em);
+    grid-column-gap:10em;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.FindUsContainer .SecondContent img{
+    width:4em;
+    height:4.5sem;
+}
+.FindUsContainer .SecondContent h1{
+    border-top: 3px solid black;
+    padding-top: 10px;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+}
+.FindUsContainer .SecondContent .BusinessHour h1{
+    font-size: 45px;
+}
+.FindUsContainer .SecondContent .BusinessHour span{
+    font-size: 35px;
+}
+.FindUsContainer .SecondContent .Name1, .FindUsContainer .SecondContent .Name2{
+    font-size: 50px;
+    border-top: none;
+    font-family: Dancing Script;
+    text-align: center;
+    color: white;
+    background-color:#195d19;
+    padding: 0.2em 0.10em;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+.FindUsContainer .SecondContent .BusinessHour,.FindUsContainer .SecondContent .FullAddress{
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 1350px){
+    .FindUsContainer .FirstContent{
+        width: 85em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 1.2em 4em;
+    }
+}
+@media screen and (max-width: 1170px){
+    .FindUsContainer .FirstContent{
+        width: 80em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 1.2em 3em;
+    }
+    .FindUsContainer .SecondContent{
+        grid-column-gap:2em;
+    }
+    .FindUsContainer .SecondContent img{
+        width:4em;
+        height:4.5sem;
+    }
+    .FindUsContainer .SecondContent h1{
+        font-size: 25px;
+    }
+    .FindUsContainer .SecondContent .BusinessHour h1{
+        font-size: 40px;
+    }  
+    .FindUsContainer .SecondContent .BusinessHour span{
+        font-size: 30px;
+    }
+    .FindUsContainer .SecondContent .Name1, .FindUsContainer .SecondContent .Name2{
+        font-size: 40px;
+    }
+    .FindUsContainer .SecondContent .BusinessHour,.FindUsContainer .SecondContent .FullAddress{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 990px){
+    .FindUsContainer .FirstContent{
+        width: 70em;
+        height:40em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 1.9em 2em;
+    }
+    .FindUsContainer .SecondContent{
+        grid-template-columns: 30em;
+        grid-template-rows: repeat(2,20em);
+    }
+}
+@media screen and (max-width: 800px){
+    .FindUsContainer .FirstContent{
+        width: 60em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 1.5em 1em;
+    }
+}
+@media screen and (max-width: 650px){
+    .FindUsContainer .FirstContent{
+        width: 45em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 1.5em 0.3em;
+    }
+}
+@media screen and (max-width: 500px){
+    .FindUsContainer .FirstContent{
+        width: 35em;
+        height:45em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 2.5em 0.1em;
+    }
+    .FindUsContainer .FirstContent h1{
+        font-size: 80px;
+    }
+    .FindUsContainer .FirstContent .Diff{
+        font-size: 60px;
+    }
+    .FindUsContainer .FirstContent h1 span{
+        font-size: 40px;
+    }
+    .FindUsContainer .SecondContent{
+        grid-template-columns: 22em;
+        grid-template-rows: repeat(2,22em);
+    }
+}
+@media screen and (max-width: 400px){
+    .FindUsContainer .FirstContent{
+        width: 25em;
+    }
+    .FindUsContainer .FirstContent h1{
+        padding: 3.7em 0.1em;
+    }
+    .FindUsContainer .FirstContent h1{
+        font-size: 60px;
+    }
+    .FindUsContainer .FirstContent .Diff{
+        font-size: 50px;
+    }
+    .FindUsContainer .FirstContent h1 span{
+        font-size: 30px;
+    }
+}

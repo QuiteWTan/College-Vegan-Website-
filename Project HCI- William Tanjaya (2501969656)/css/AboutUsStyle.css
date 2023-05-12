@@ -1,0 +1,658 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.AboutUs{
+    background-color: #88c088;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+}
+main{
+    min-height: 100vh;
+    margin-bottom: -10em;
+}
+footer{
+    margin-top: auto;
+}
+.AboutUsContainer{
+    margin-top: 0.5em;
+    display: grid;
+    justify-content: center;
+}
+.AboutUsContainer .FirstContent{
+    grid-row: 1;
+    grid-column: 1/5;
+    width: 96em;
+    height:33em;
+    position: relative;
+    overflow: hidden;
+}
+.AboutUsContainer .FirstContent img{
+    height:100%;
+    width:100%;
+    filter: brightness(80%);
+}
+.AboutUsContainer .FirstContent h1{
+    position: absolute;
+    color:white;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid white;
+    padding: 1.8em 6em;
+    font-weight: lighter;
+}
+.AboutUsContainer .FirstContent h1 span{
+    font-size: 40px;
+    font-family: Dancing Script;
+    font-weight: lighter;
+}
+.AboutUsContainer .FirstContent .Diff{
+    font-size: 70px;
+    font-family: Dancing Script;
+    font-weight: lighter;
+}
+.AboutUsContainer .SecondContent{
+    grid-row: 2;
+    grid-column: 1/5;
+    width:96em;
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.AboutUsContainer .SecondContent img{
+    grid-row: 1;
+    grid-column: 3/5;
+    width:35em;
+    height:20em;
+    padding-left: 30px;
+}
+.AboutUsContainer .SecondContent h1{
+    grid-row: 1;
+    grid-column: 1/3;
+    width:11em;
+    font-size: 50px;
+    font-family: Cormorant Garamond;
+    line-height: 35px;
+    overflow: hidden;
+}
+.AboutUsContainer .SecondContent h1 span{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Castoro;
+}
+.AboutUsContainer .ThirdContent{
+    grid-row:3;
+    grid-column: 1/5;
+    height:40em;
+    width:96em;
+    display: grid;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.AboutUsContainer .ThirdContent .First{
+    font-size: 70px;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: right;
+    padding-right:0.5em;
+    height:1.2em;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid black;
+}
+.AboutUsContainer .ThirdContent .Second{
+    text-align: left;
+    font-size: 20px;
+    grid-row: 1;
+    grid-column:2;
+    width:28em;
+    padding-left:2em;
+    padding-top: 15px;
+}
+.AboutUsContainer .ThirdContent .Third{
+    width:9em;
+    height:15em;
+    font-size: 35px;
+    font-family: Dancing script;
+    text-align: center;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.AboutUsContainer .ThirdContent .ContainerFarm1{
+    grid-row:2;
+    grid-column: 1/3;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 28.2em 20.2em 28.2em;
+    margin-top:40px;
+}
+.SecondFarm img{
+    width:20em;
+    height:15em
+}
+.FirstFarm img,.ThirdFarm img,.FourthFarm img,.FifthFarm img{
+    width:28em;
+    height:15em;
+}
+.AboutUsContainer .ThirdContent .ContainerFarm2{
+    grid-row:3;
+    grid-column: 1/3;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 28.2em 20.2em 28.2em;
+}
+.AboutUsContainer .FourthContent{
+    grid-row: 4;
+    grid-column: 1/5;
+    width: 96em;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.AboutUsContainer .FourthContent h1{
+    grid-row: 1;
+    grid-column: 1/3;
+    font-size: 60px;
+    font-family: Cormorant Garamond;
+    text-align: center;
+}
+.AboutUsContainer .FourthContent .VisionContainer{
+    grid-row: 2;
+    grid-column: 1;
+    width:40em;
+    height: 25em;
+    text-align: center;
+    background-color: #225322;
+    position: relative;
+    color: white;
+}
+.AboutUsContainer .FourthContent .MissionContainer{
+    position: relative;
+    grid-row: 3;
+    grid-column: 2;
+    width:40em;
+    height: 25em;
+    text-align: center;
+    background-color: #5f5d5d;
+    color: white;
+}
+.AboutUsContainer .FourthContent .Image1{
+    grid-row: 2;
+    grid-column: 2;
+    width:40em;
+    height:25em;
+    overflow: hidden;
+}
+.AboutUsContainer .FourthContent .Image2{
+    grid-row: 3;
+    grid-column: 1;
+    width:40em;
+    height:25em;
+    overflow: hidden;
+}
+.AboutUsContainer .FourthContent img{
+    width:100%;
+    height:100%;
+}
+.AboutUsContainer .FourthContent .VisionContainer h1,.AboutUsContainer .FourthContent .MissionContainer h1{
+    position: absolute;
+    top: 15%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.AboutUsContainer .FourthContent .VisionContainer h2,.AboutUsContainer .FourthContent .MissionContainer h2{
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    width:20em;
+    position: absolute;
+    font-weight: 500;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 1350px){
+    .AboutUsContainer .FirstContent{
+        width: 85em;
+    }
+    .AboutUsContainer .FirstContent h1{
+        padding: 1.8em 5em;
+    }
+    .AboutUsContainer .SecondContent{
+        width:85em;
+    }
+    .AboutUsContainer .SecondContent img{
+        width:35em;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:85em;
+    }
+    .AboutUsContainer .ThirdContent .First{
+        font-size:55px;
+        padding-right:0.5em;
+    }
+    .AboutUsContainer .ThirdContent .Second{
+        font-size: 20px;
+        width:28em;
+        padding-left:1em;
+        padding-top: 10px;
+    }
+    .AboutUsContainer .ThirdContent .Third{
+        width:9em;
+        height:15em;
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm1{
+        grid-template-columns: 24.2em 18.2em 24.2em;
+    }
+    .SecondFarm img{
+        width:18em;
+    }
+    .FirstFarm img,.ThirdFarm img,.FourthFarm img,.FifthFarm img{
+        width:24em;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm2{
+        grid-template-columns: 24.2em 18.2em 24.2em;
+    }
+    .AboutUsContainer .FourthContent{
+        width: 85em;
+    }
+    .AboutUsContainer .FourthContent h1{
+        font-size: 50px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer,.AboutUsContainer .FourthContent .MissionContainer{
+        width:30em;
+        height: 18em;
+        padding:10px 60px;
+        box-sizing: border-box;
+    }
+    .AboutUsContainer .FourthContent .Image1,.AboutUsContainer .FourthContent .Image2{
+        width:30em;
+        height: 18em;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h1,.AboutUsContainer .FourthContent .MissionContainer h1{
+        font-size: 45px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h2,.AboutUsContainer .FourthContent .MissionContainer h2{
+        font-size: 22px;
+        width:20em;
+    }
+}
+@media screen and (max-width: 1150px){
+    .AboutUsContainer .FirstContent{
+        width: 80em;
+    }
+    .AboutUsContainer .FirstContent h1{
+        padding: 1.8em 4em;
+    }
+    .AboutUsContainer .SecondContent{
+        width:80em
+    }
+    .AboutUsContainer .SecondContent img{
+        width:30em;
+        height:25em;
+    }
+    .AboutUsContainer .SecondContent h1{
+        width:9em;
+        font-size: 50px;
+    }
+    .AboutUsContainer .SecondContent h1 span{
+        font-size: 18px;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:80em;
+    }
+    .AboutUsContainer .ThirdContent .First{
+        font-size:45px;
+    }
+    .AboutUsContainer .ThirdContent .Second{
+        font-size: 16px;
+        width:20em;
+        padding-left:1em;
+        padding-top: 0px;
+    }
+    .AboutUsContainer .ThirdContent .Third{
+        width:8em;
+        font-size: 26px;
+        padding-top: 10px;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm1{
+        grid-template-columns:  18.2em 13.2em  18.2em;
+    }
+    .SecondFarm img{
+        width:13em;
+        height:12em;
+    }
+    .FirstFarm img,.ThirdFarm img,.FourthFarm img,.FifthFarm img{
+        width: 18em;
+        height:12em;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm2{
+        grid-template-columns:  18.2em 13.2em  18.2em;
+    }
+    .AboutUsContainer .FourthContent{
+        width: 80em;
+    }
+}
+@media screen and (max-width: 990px){
+    .AboutUsContainer .FirstContent{
+        width: 70em;
+    }
+    .AboutUsContainer .FirstContent h1{
+        padding: 1.8em 2.5em;
+    }
+    .AboutUsContainer .SecondContent{
+        width:70em;
+    }
+    .AboutUsContainer .SecondContent img{
+        width:25em;
+    }
+    .AboutUsContainer .SecondContent h1{
+        width:8em;
+        font-size: 45px;
+        line-height: 30px;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:70em;
+    }
+    .AboutUsContainer .FourthContent{
+        width: 70em;
+        margin-top: 10px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .AboutUsContainer .FourthContent h1{
+        font-size: 40px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer,.AboutUsContainer .FourthContent .MissionContainer{
+        width:24em;
+        height:15em;
+    }
+    .AboutUsContainer .FourthContent .Image1,.AboutUsContainer .FourthContent .Image2{
+        width:24em;
+        height:15em;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h1,.AboutUsContainer .FourthContent .MissionContainer h1{
+        font-size: 35px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h2,.AboutUsContainer .FourthContent .MissionContainer h2{
+        font-size: 20px;
+        width:18em;
+    }
+}
+@media screen and (max-width: 800px){
+    .AboutUsContainer .FirstContent{
+        width: 60em;
+    }
+    .AboutUsContainer .FirstContent h1{
+        padding: 1.8em 1em;
+    }
+    .AboutUsContainer .SecondContent{
+        width:60em;
+    }
+    .AboutUsContainer .SecondContent img{
+        width:18em;
+    }
+    .AboutUsContainer .SecondContent h1{
+        width:7em;
+        font-size: 40px;
+    }
+    .AboutUsContainer .SecondContent h1 span{
+        font-size: 15px;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:60em;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:60em;
+        height:30em;
+    }
+    .AboutUsContainer .ThirdContent .First{
+        font-size:35px;
+        padding-right:0.5em;
+    }
+    .AboutUsContainer .ThirdContent .Second{
+        font-size: 16px;
+        width:20em;
+        padding-left:0.5em;
+    }
+    .AboutUsContainer .ThirdContent .Third{
+        width:8em;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm1{
+        grid-template-columns:  12.2em 10.2em  12.2em;
+    }
+    .SecondFarm img{
+        width:10em;
+        height:9em;
+    }
+    .FirstFarm img,.ThirdFarm img,.FourthFarm img,.FifthFarm img{
+        width: 12em;
+        height:9em;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm2{
+        grid-template-columns:  12.2em 10.2em  12.2em;
+    }
+    .AboutUsContainer .FourthContent{
+        width: 60em;
+    }
+    .AboutUsContainer .FourthContent h1{
+        font-size: 40px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer,.AboutUsContainer .FourthContent .MissionContainer{
+        width:18em;
+        height:12em;
+    }
+    .AboutUsContainer .FourthContent .Image1,.AboutUsContainer .FourthContent .Image2{
+        width:18em;
+        height:12em;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h1,.AboutUsContainer .FourthContent .MissionContainer h1{
+        font-size: 25px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h2,.AboutUsContainer .FourthContent .MissionContainer h2{
+        font-size: 16px;
+        width:15em;
+    }
+}
+@media screen and (max-width: 600px){
+    .AboutUsContainer .FirstContent{
+        width: 45em;
+    }
+    .AboutUsContainer .FirstContent h1{
+        padding: 1.8em 1em;
+        font-size: 60px;
+    }
+    .AboutUsContainer .FirstContent h1 span{
+        font-size: 30px;
+    }
+    .AboutUsContainer .FirstContent .Diff{
+        font-size: 60px;
+    }
+    .AboutUsContainer .SecondContent{
+        width:45em;
+    }
+    .AboutUsContainer .SecondContent img{
+        width:25em;
+        height:25em;
+        grid-row: 1;
+        grid-column: 1/5;
+    }
+    .AboutUsContainer .SecondContent h1{
+        padding-top: 20px;
+        width:12em;
+        grid-row: 2;
+        grid-column: 1/5;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:45em;
+        height:25em;
+    }
+    .AboutUsContainer .ThirdContent .First{
+        font-size:25px;
+        padding-right:0.4em;
+        padding-top:18px;
+        padding-bottom: 18px;
+    }
+    .AboutUsContainer .ThirdContent .Second{
+        font-size: 12px;
+        width:14em;
+        padding-left:0.8em;
+        padding-top: 0px;
+    }
+    .AboutUsContainer .ThirdContent .Third{
+        width:7.5em;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm1{
+        grid-template-columns:  9.2em 7.7em  9.2em;
+    }
+    .SecondFarm img{
+        width:7.5em;
+        height:8em;
+    }
+    .FirstFarm img,.ThirdFarm img,.FourthFarm img,.FifthFarm img{
+        width: 9em;
+        height:8em;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm2{
+        grid-template-columns: 9.2em 7.7em  9.2em;
+    }
+    .AboutUsContainer .FourthContent{
+        width: 45em;
+    }
+    .AboutUsContainer .FourthContent h1{
+        font-size: 30px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer,.AboutUsContainer .FourthContent .MissionContainer{
+        width:15em;
+        height:15em;
+    }
+    .AboutUsContainer .FourthContent .Image1,.AboutUsContainer .FourthContent .Image2{
+        width:15em;
+        height:15em;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h1,.AboutUsContainer .FourthContent .MissionContainer h1{
+        font-size: 25px;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h2,.AboutUsContainer .FourthContent .MissionContainer h2{
+        font-size: 16px;
+        width:12em;
+    }
+}
+@media screen and (max-width: 500px){
+    .AboutUsContainer .FirstContent{
+        width: 35em;
+        height:45em;
+    }
+    .AboutUsContainer .FirstContent h1{
+        padding: 4.5em 0.3em;
+        font-size: 50px;
+    }
+    .AboutUsContainer .FirstContent h1 span{
+        font-size: 30px;
+    }
+    .AboutUsContainer .FirstContent .Diff{
+        font-size: 50px;
+    }
+    .AboutUsContainer .SecondContent{
+        width:35em;
+    }
+    .AboutUsContainer .SecondContent img{
+        width:20em;
+        height:20em;
+        grid-row: 1;
+        grid-column: 1/5;
+        padding-left: 5px;
+    }
+    .AboutUsContainer .SecondContent h1{
+        padding-top: 20px;
+        width:8em;
+        font-size: 40px;
+        grid-row: 2;
+        grid-column: 1/5;
+    }
+    .AboutUsContainer .SecondContent h1 span{
+        font-size: 14px;
+    }
+    .AboutUsContainer .ThirdContent{
+        width:35em;
+        height:20em;
+    }
+    .AboutUsContainer .ThirdContent .Third{
+        width:7.5em;
+        font-size: 11px;
+        padding-top: 0px;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm1{
+        grid-template-columns:  7.6em 5.1em  7.6em;
+    }
+    .SecondFarm img{
+        width:5em;
+        height:5em;
+    }
+    .FirstFarm img,.ThirdFarm img,.FourthFarm img,.FifthFarm img{
+        width: 7.5em;
+        height:5em;
+    }
+    .AboutUsContainer .ThirdContent .ContainerFarm2{
+        grid-template-columns:   7.6em 5.1em  7.6em;
+    }
+    .AboutUsContainer .FourthContent{
+        width:35em;
+        margin-top: 10px;
+    }
+    .AboutUsContainer .FourthContent h1{
+        font-size: 20px;
+        font-family: Cormorant Garamond;
+        text-align: center;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer{
+        grid-row: 3;
+        grid-column: 1/3;
+    }
+    .AboutUsContainer .FourthContent .MissionContainer{
+        grid-row: 5;
+        grid-column: 1/3;
+    }
+    .AboutUsContainer .FourthContent .Image1{
+        grid-row: 2;
+        grid-column: 1/3;
+    }
+    .AboutUsContainer .FourthContent .Image2{
+        grid-row: 4;
+        grid-column: 1/3;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer,.AboutUsContainer .FourthContent .MissionContainer{
+        width:20em;
+        height:12em;
+    }
+    .AboutUsContainer .FourthContent .Image1,.AboutUsContainer .FourthContent .Image2{
+        width:20em;
+        height:12em;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h1,.AboutUsContainer .FourthContent .MissionContainer h1{
+        font-size: 25px;
+        width:10em;
+    }
+    .AboutUsContainer .FourthContent .VisionContainer h2,.AboutUsContainer .FourthContent .MissionContainer h2{
+        width:15em;
+    }
+}

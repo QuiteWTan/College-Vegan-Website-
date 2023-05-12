@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="../css/ContactUsStyle.css">
+    <script defer src="../JavaScript/ContactUs.js"></script>
+    <!-- Import Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;400&family=Castoro&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Mr+Dafoe&family=Pompiere&family=Poppins:wght@100&family=Qwigley&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ContactUsContainer">
+        <div class="FirstContent">
+            <div class="Title"><img src="../Image/ContactUs.jpg" alt="">
+                <h3><a href="HomePage.html"><< Back</a></h3>
+                <h2>Contact Us<br><span>Get In Touch With Us!</span></h2>
+                <h2 class="Hidden">C O N T A C T — U S</span></h2>
+                <div class="FormContainer">
+                    <div class="FormTitle"><h1>Vorgreens<br><span>Contact Form</span></h1></div>
+                    <form id="Form" action="">
+                        <div class="NameInput">
+                            <label for="Username">Name</label><br>
+                            <input id="Username" name="Username" type="text" placeholder="Type your name here">
+                            <div class="Notice"></div>
+                        </div>
+                        <div class="EmailInput">
+                            <label for="Email">Email</label><br>
+                            <input id="Email" name="Email" type="text" placeholder="Type your email here">
+                            <div class="Notice"></div>
+                        </div>
+                        <div class="GenderInput">
+                            <label for=Gender>Gender</label><br>
+                            <select id="Gender">
+                                <option value="None">Choose</option>
+                                <option value="Yes">Male</option>
+                                <option value="Yes">Female</option>
+                            </select>
+                            <div class="Notice"></div>
+                        </div>
+                        <div class="MessageInput">
+                            <label>Message</label><br>
+                            <textarea id="Message" cols="30" rows="5" placeholder="Type Your Message Here"></textarea>
+                            <div class="Notice"></div>
+                        </div>
+                        <div class="Subscription">
+                            <input id="Terms" type="checkbox" class="Terms p-default">I Have Subscribed
+                            <span class="Custom"></span>
+                            <div class="Notice"></div>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form> 
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
